@@ -5,7 +5,7 @@ let loader = document.getElementById("loader");
 btn.addEventListener("click", () => {
     loader.style.display = "block";
     console.log("pressed");
-
+    img.src = "";
     img.onload = () => {
         loader.style.display = "none";
         console.log("loaded");
